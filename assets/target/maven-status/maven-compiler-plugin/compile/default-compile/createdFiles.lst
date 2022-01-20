@@ -1,0 +1,9 @@
+dbassets\models\Message.class
+dbassets\models\User.class
+dbassets\daos\MessageDAOImpl.class
+dbassets\daos\ChatDAO.class
+dbassets\daos\UserDAOImpl.class
+dbassets\daos\ChatDAOImpl.class
+dbassets\daos\MessageDAO.class
+dbassets\daos\UserDAO.class
+dbassets\models\Chat.class

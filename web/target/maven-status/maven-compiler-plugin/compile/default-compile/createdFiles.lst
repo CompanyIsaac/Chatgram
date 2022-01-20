@@ -1,0 +1,8 @@
+servlet\MessageSend.class
+servlet\Logout.class
+servlet\ListMessage.class
+servlet\Registration.class
+servlet\Login.class
+servlet\LeaveChat.class
+servlet\CreateChat.class
+servlet\ListChat.class

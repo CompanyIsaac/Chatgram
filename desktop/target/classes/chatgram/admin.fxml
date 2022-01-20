@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatgram.controllers.AdminController">
+    <children>
+        <TableView fx:id="usertable" layoutX="8.0" layoutY="50.0" prefHeight="295.0" prefWidth="586.0">
+            <TableColumn fx:id="nameCol" prefWidth="200.0" text="Name" />
+            <TableColumn fx:id="emailCol" prefWidth="200.0" text="Email" />
+            <TableColumn fx:id="deleteUserCol" prefWidth="100.0" text="action" />
+        </TableView>
+        <TableView fx:id="chattable" layoutX="7.0" layoutY="50.0" prefHeight="295.0" prefWidth="586.0">
+            <TableColumn fx:id="chatNameCol" prefWidth="400.0" text="Name" />
+            <TableColumn fx:id="deleteChatCol" prefWidth="100.0" text="action" />
+        </TableView>
+
+        <Button layoutX="493.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="93.0" text="Logout" />
+          <Button layoutX="327.0" layoutY="362.0" mnemonicParsing="false" onAction="#chats" prefHeight="25.0" prefWidth="93.0" text="Chats" />
+          <Button layoutX="196.0" layoutY="362.0" mnemonicParsing="false" onAction="#users" prefHeight="25.0" prefWidth="92.0" text="Users" />
+    </children>
+</AnchorPane>
